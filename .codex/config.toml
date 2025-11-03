@@ -1,0 +1,3 @@
+model = "gpt-5-codex"
+[projects."/Users/xinge/Desktop/project/Try_4th"]
+trust_level = "trusted"

@@ -1,0 +1,73 @@
+<view class="list-container {{nightMode ? 'night-mode' : ''}}">
+  <view class="recommend-section">
+    <view class="recommend-header">
+      <view class="recommend-header-text">
+        <view class="recommend-title">为你推荐</view>
+        <view class="recommend-subtitle">结合最近的游玩、收藏与标签更新</view>
+      </view>
+      <button
+        class="recommend-refresh"
+        bindtap="onRefreshRecommendations"
+        loading="{{isRecLoading}}"
+        disabled="{{isRecLoading}}"
+        plain
+      >
+        {{isRecLoading ? '刷新中' : '刷新'}}
+      </button>
+    </view>
+    <view wx:if="{{recError && !recommendations.length}}" class="recommend-empty">{{recError}}</view>
+    <view wx:elif="{{isRecLoading && !recommendations.length}}" class="recommend-empty">加载中…</view>
+    <view wx:elif="{{!isRecLoading && !recommendations.length}}" class="recommend-empty">暂无推荐，稍后再来看看</view>
+    <scroll-view scroll-x="true" class="recommend-scroll" wx:if="{{recommendations.length}}">
+      <block wx:for="{{recommendations}}" wx:key="themeId">
+        <view class="recommend-card" bindtap="onSelectRecommendation" data-id="{{item.themeId}}">
+          <view class="recommend-card-top">
+            <text class="recommend-reason">{{item.reason}}</text>
+            <text class="recommend-order">NO.{{index + 1}}</text>
+          </view>
+          <view class="recommend-card-title">{{item.title}}</view>
+          <view class="recommend-card-desc">{{item.description}}</view>
+          <view class="recommend-card-footer">
+            <text class="recommend-card-hint">点击直达故事页</text>
+            <text class="recommend-card-action">开启</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <view class="search-bar">
+    <input
+      class="search-input"
+      placeholder="搜索主题、标签、描述"
+      value="{{query}}"
+      bindinput="onSearchInput"
+    />
+    <button class="clear-button" wx:if="{{query}}" bindtap="onClearSearch">清除</button>
+  </view>
+
+  <view wx:if="{{isLoading}}" class="loading">加载中…</view>
+
+  <view class="theme-list">
+    <block wx:for="{{themes}}" wx:key="themeId">
+      <view class="theme-item">
+        <view class="theme-content" bindtap="onSelectTheme" data-id="{{item.themeId}}">
+          <view class="title">{{item.title}}</view>
+          <view class="description">{{item.description}}</view>
+          <view class="tags">
+            <block wx:for="{{item.tags}}" wx:key="*this">
+              <text class="tag">{{item}}</text>
+            </block>
+          </view>
+        </view>
+        <button
+          class="favorite-button"
+          data-id="{{item.themeId}}"
+          bindtap="onToggleFavorite"
+        >
+          {{item.isFavorite ? '★' : '☆'}}
+        </button>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+{
+  "catalogVersion": "demo-3",
+  "themes": [
+    {
+      "themeId": "school-revenge",
+      "title": "复仇游戏：攻略了仇人的儿子",
+      "description": "复仇少女潜入名校，与仇人之子斗智斗勇的暗流游戏",
+      "tags": ["校园", "复仇"],
+      "promptPath": "specs/001-speckit-specify-wechat/themes/复仇游戏：攻略了仇人的儿子.txt",
+      "lastUpdated": "2025-10-15T11:01:43Z"
+    },
+    {
+      "themeId": "palace-survival",
+      "title": "宫女生存手札",
+      "description": "现代灵魂穿越入大曜后宫，从粗使宫女扶持主子登上后位的求生记",
+      "tags": ["宫廷", "穿越", "成长"],
+      "promptPath": "specs/001-speckit-specify-wechat/themes/宫女生存手札.txt",
+      "lastUpdated": "2025-10-15T11:01:43Z"
+    },
+    {
+      "themeId": "paranormal-stream",
+      "title": "灵异直播论坛",
+      "description": "线上论坛接单、线下直播探灵的双线灵异调查冒险",
+      "tags": ["灵异", "直播", "调查"],
+      "promptPath": "specs/001-speckit-specify-wechat/themes/灵异直播论坛.txt",
+      "lastUpdated": "2025-10-15T11:01:43Z"
+    },
+    {
+      "themeId": "endless-horror-yongan",
+      "title": "无限流之永安公寓",
+      "description": "置身封闭公寓副本，揭开层层恐怖谜团的无限流挑战",
+      "tags": ["恐怖", "无限流", "解谜"],
+      "promptPath": "specs/001-speckit-specify-wechat/themes/无限流之永安公寓.txt",
+      "lastUpdated": "2025-10-15T11:01:43Z"
+  }
+  ]
+}

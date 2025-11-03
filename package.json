@@ -1,0 +1,17 @@
+{
+  "name": "wechat-text-adventure",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "src/mini-program"
+  ],
+  "scripts": {
+    "bootstrap": "npm install --workspaces",
+    "lint": "npm run lint --workspace backend",
+    "test": "npm test --workspace backend && npm test --workspace src/mini-program",
+    "build:catalog": "node tools/build-catalog.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}

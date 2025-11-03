@@ -4,6 +4,7 @@
 **Created**: [DATE]  
 **Status**: Draft  
 **Input**: User description: "$ARGUMENTS"
+**Constitution Alignment**: Document how this spec satisfies Independent Value Increments, Test-First Verification, and Explicit Contracts.
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -11,6 +12,7 @@
   IMPORTANT: User stories should be PRIORITIZED as user journeys ordered by importance.
   Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
   you should still have a viable MVP (Minimum Viable Product) that delivers value.
+  Cite the Independent Value Increments principle when justifying the independence of each story.
   
   Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
   Think of each story as a standalone slice of functionality that can be:
@@ -28,6 +30,8 @@
 
 **Independent Test**: [Describe how this can be tested independently - e.g., "Can be fully tested by [specific action] and delivers [specific value]"]
 
+**Test-First Evidence**: [State the test case(s) that will be authored first and how they initially fail]
+
 **Acceptance Scenarios**:
 
 1. **Given** [initial state], **When** [action], **Then** [expected outcome]
@@ -43,6 +47,8 @@
 
 **Independent Test**: [Describe how this can be tested independently]
 
+**Test-First Evidence**: [State the test case(s) that will be authored first and how they initially fail]
+
 **Acceptance Scenarios**:
 
 1. **Given** [initial state], **When** [action], **Then** [expected outcome]
@@ -56,6 +62,8 @@
 **Why this priority**: [Explain the value and why it has this priority level]
 
 **Independent Test**: [Describe how this can be tested independently]
+
+**Test-First Evidence**: [State the test case(s) that will be authored first and how they initially fail]
 
 **Acceptance Scenarios**:
 

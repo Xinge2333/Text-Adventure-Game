@@ -1,0 +1,8 @@
+<view class="ai-loading {{nightMode ? 'night-mode' : ''}}" wx:if="{{active}}">
+  <view class="ai-loading-text {{textVisible ? 'ai-loading-text-visible' : 'ai-loading-text-hidden'}}">
+    {{currentMessage}}
+  </view>
+  <view class="ai-loading-icon">
+    <view class="ai-loading-spinner"></view>
+  </view>
+</view>

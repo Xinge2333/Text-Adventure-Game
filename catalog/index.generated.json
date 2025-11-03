@@ -1,0 +1,2033 @@
+{
+  "catalogVersion": "generated-2025-10-26T18-51-42-582Z",
+  "generatedAt": "2025-10-26T18:51:42.583Z",
+  "themes": [
+    {
+      "themeId": "200",
+      "title": "200斤胖妞逆袭万人迷",
+      "description": "200斤胖妞逆袭万人迷",
+      "tags": [
+        "校园",
+        "快穿",
+        "系统",
+        "权谋",
+        "恋爱",
+        "逆袭"
+      ],
+      "promptPath": "themes/200斤胖妞逆袭万人迷.txt",
+      "lastUpdated": "2025-10-26T18:03:27.526Z",
+      "primaryTag": "校园",
+      "wordCount": 216
+    },
+    {
+      "themeId": "theme-e788b1e588b0e5b0bde5a4b4",
+      "title": "爱到尽头，还是你吗",
+      "description": "爱到尽头，还是你吗",
+      "tags": [
+        "豪门",
+        "系统"
+      ],
+      "promptPath": "themes/爱到尽头，还是你吗.txt",
+      "lastUpdated": "2025-10-26T18:03:27.605Z",
+      "primaryTag": "豪门",
+      "wordCount": 87
+    },
+    {
+      "themeId": "theme-e68a8ae59088e6aca2e68385",
+      "title": "把合欢情蛊下错给宿敌之后",
+      "description": "把合欢情蛊下错给宿敌之后",
+      "tags": [
+        "权谋",
+        "仙侠",
+        "恋爱"
+      ],
+      "promptPath": "themes/把合欢情蛊下错给宿敌之后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.592Z",
+      "primaryTag": "权谋",
+      "wordCount": 145
+    },
+    {
+      "themeId": "theme-e7bb91e5ae9ae5af8ce5a986",
+      "title": "绑定富婆系统后包养三个小白脸",
+      "description": "绑定富婆系统后包养三个小白脸",
+      "tags": [
+        "校园",
+        "系统",
+        "职场",
+        "恋爱"
+      ],
+      "promptPath": "themes/绑定富婆系统后包养三个小白脸.txt",
+      "lastUpdated": "2025-10-26T18:03:27.615Z",
+      "primaryTag": "校园",
+      "wordCount": 59
+    },
+    {
+      "themeId": "theme-e8a2abe59088e6aca2e5ae97",
+      "title": "被合欢宗男修当作毕业试炼后",
+      "description": "被合欢宗男修当作毕业试炼后",
+      "tags": [
+        "仙侠",
+        "系统"
+      ],
+      "promptPath": "themes/被合欢宗男修当作毕业试炼后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.618Z",
+      "primaryTag": "仙侠",
+      "wordCount": 69
+    },
+    {
+      "themeId": "o-2",
+      "title": "穿成笔下的o文女主后被男主们强制爱了",
+      "description": "穿成笔下的o文女主后被男主们强制爱了",
+      "tags": [
+        "快穿",
+        "复仇",
+        "系统",
+        "宫廷",
+        "权谋"
+      ],
+      "promptPath": "themes/穿成笔下的o文女主后被男主们强制爱了.txt",
+      "lastUpdated": "2025-10-26T18:03:27.609Z",
+      "primaryTag": "快穿",
+      "wordCount": 96
+    },
+    {
+      "themeId": "npc",
+      "title": "穿成乙游路人npc后",
+      "description": "穿成乙游路人npc后",
+      "tags": [
+        "校园",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/穿成乙游路人npc后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.609Z",
+      "primaryTag": "校园",
+      "wordCount": 65
+    },
+    {
+      "themeId": "theme-e7a9bfe8b68ae4b887e7958c",
+      "title": "穿越万界：我的多面情缘",
+      "description": "穿越万界：我的多面情缘",
+      "tags": [
+        "系统"
+      ],
+      "promptPath": "themes/穿越万界：我的多面情缘.txt",
+      "lastUpdated": "2025-10-26T18:03:27.610Z",
+      "primaryTag": "系统",
+      "wordCount": 56
+    },
+    {
+      "themeId": "theme-e7a9bfe8b68ae4b887e7958c-2",
+      "title": "穿越万界：我的恋爱指南",
+      "description": "穿越万界：我的恋爱指南",
+      "tags": [
+        "豪门",
+        "古风",
+        "复仇",
+        "系统",
+        "仙侠",
+        "恋爱"
+      ],
+      "promptPath": "themes/穿越万界：我的恋爱指南.txt",
+      "lastUpdated": "2025-10-26T18:03:27.611Z",
+      "primaryTag": "豪门",
+      "wordCount": 142
+    },
+    {
+      "themeId": "theme-e7a9bfe8b68ae4b887e4b896",
+      "title": "穿越万世：攻心为上",
+      "description": "穿越万世：攻心为上",
+      "tags": [
+        "豪门",
+        "快穿",
+        "古风",
+        "恋爱"
+      ],
+      "promptPath": "themes/穿越万世：攻心为上.txt",
+      "lastUpdated": "2025-10-26T18:03:27.610Z",
+      "primaryTag": "豪门",
+      "wordCount": 92
+    },
+    {
+      "themeId": "theme-e6aca1e58583e7a9bfe8b68a",
+      "title": "次元穿越：甜爱契约",
+      "description": "次元穿越：甜爱契约",
+      "tags": [
+        "系统",
+        "宫廷",
+        "权谋"
+      ],
+      "promptPath": "themes/次元穿越：甜爱契约.txt",
+      "lastUpdated": "2025-10-26T18:03:27.600Z",
+      "primaryTag": "系统",
+      "wordCount": 121
+    },
+    {
+      "themeId": "theme-e79280e792a8e6989fe98094",
+      "title": "璀璨星途：从群演到顶流",
+      "description": "璀璨星途：从群演到顶流",
+      "tags": [
+        "娱乐圈",
+        "综艺",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/璀璨星途：从群演到顶流.txt",
+      "lastUpdated": "2025-10-26T18:03:27.607Z",
+      "primaryTag": "娱乐圈",
+      "wordCount": 519
+    },
+    {
+      "themeId": "theme-e5a4a7e98083e69d80e6a0a1",
+      "title": "大逃杀校园篇",
+      "description": "大逃杀校园篇",
+      "tags": [
+        "校园",
+        "系统"
+      ],
+      "promptPath": "themes/大逃杀校园篇.txt",
+      "lastUpdated": "2025-10-26T18:03:27.568Z",
+      "primaryTag": "校园",
+      "wordCount": 22
+    },
+    {
+      "themeId": "o",
+      "title": "大小姐的修罗场：o友想转正",
+      "description": "大小姐的修罗场：o友想转正",
+      "tags": [
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/大小姐的修罗场：o友想转正.txt",
+      "lastUpdated": "2025-10-26T18:03:27.568Z",
+      "primaryTag": "权谋",
+      "wordCount": 145
+    },
+    {
+      "themeId": "theme-e5b8a6e79d80e99a8fe8baab",
+      "title": "带着随身超市在古代逃荒",
+      "description": "带着随身超市在古代逃荒",
+      "tags": [
+        "灵异",
+        "古风",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻"
+      ],
+      "promptPath": "themes/带着随身超市在古代逃荒.txt",
+      "lastUpdated": "2025-10-26T18:03:27.580Z",
+      "primaryTag": "灵异",
+      "wordCount": 31
+    },
+    {
+      "themeId": "theme-e5b89de59bbde78eabe791b0",
+      "title": "帝国玫瑰：权谋与爱的游戏",
+      "description": "帝国玫瑰：权谋与爱的游戏",
+      "tags": [
+        "宫廷",
+        "权谋",
+        "系统"
+      ],
+      "promptPath": "themes/帝国玫瑰：权谋与爱的游戏.txt",
+      "lastUpdated": "2025-10-26T18:03:27.579Z",
+      "primaryTag": "宫廷",
+      "wordCount": 92
+    },
+    {
+      "themeId": "theme-e5b89de78e8be5bf83e69caf",
+      "title": "帝王心术：后宫争宠录",
+      "description": "帝王心术：后宫争宠录",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "权谋",
+        "系统",
+        "综艺",
+        "选秀"
+      ],
+      "promptPath": "themes/帝王心术：后宫争宠录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.580Z",
+      "primaryTag": "宫廷",
+      "wordCount": 97
+    },
+    {
+      "themeId": "theme-e983bde5b882e7bb88e7bb93",
+      "title": "都市终结：变异危机",
+      "description": "都市终结：变异危机",
+      "tags": [
+        "恐怖",
+        "系统"
+      ],
+      "promptPath": "themes/都市终结：变异危机.txt",
+      "lastUpdated": "2025-10-26T18:03:27.622Z",
+      "primaryTag": "恐怖",
+      "wordCount": 373
+    },
+    {
+      "themeId": "theme-e5a4bae5aba1e8a2abe59084",
+      "title": "夺嫡被各朝名帝围观了",
+      "description": "夺嫡被各朝名帝围观了",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "灵异",
+        "古风",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "权谋"
+      ],
+      "promptPath": "themes/夺嫡被各朝名帝围观了.txt",
+      "lastUpdated": "2025-10-26T18:03:27.570Z",
+      "primaryTag": "宫廷",
+      "wordCount": 44
+    },
+    {
+      "themeId": "theme-e5a095e5a4a9e59ca3e5a5b3",
+      "title": "堕天圣女：双生魅契",
+      "description": "堕天圣女：双生魅契",
+      "tags": [
+        "宫廷",
+        "仙侠",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/堕天圣女：双生魅契.txt",
+      "lastUpdated": "2025-10-26T18:03:27.565Z",
+      "primaryTag": "宫廷",
+      "wordCount": 196
+    },
+    {
+      "themeId": "theme-e58f8de6b4bee5a4a7e5b08f",
+      "title": "反派大小姐的逆袭日常",
+      "description": "反派大小姐的逆袭日常",
+      "tags": [
+        "快穿",
+        "直播",
+        "系统",
+        "权谋",
+        "恋爱",
+        "逆袭"
+      ],
+      "promptPath": "themes/反派大小姐的逆袭日常.txt",
+      "lastUpdated": "2025-10-26T18:03:27.556Z",
+      "primaryTag": "快穿",
+      "wordCount": 186
+    },
+    {
+      "themeId": "theme-e587a4e9b8a3e4b99de99c84",
+      "title": "凤鸣九霄：庶女的宫心路",
+      "description": "凤鸣九霄：庶女的宫心路",
+      "tags": [
+        "宫廷",
+        "权谋"
+      ],
+      "promptPath": "themes/凤鸣九霄：庶女的宫心路.txt",
+      "lastUpdated": "2025-10-26T18:03:27.554Z",
+      "primaryTag": "宫廷",
+      "wordCount": 98
+    },
+    {
+      "themeId": "theme-e5a48de4bb87e6b8b8e6888f",
+      "title": "复仇游戏：攻略了仇人的儿子",
+      "description": "复仇游戏：攻略了仇人的儿子",
+      "tags": [
+        "校园",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/复仇游戏：攻略了仇人的儿子.txt",
+      "lastUpdated": "2025-10-26T18:03:27.566Z",
+      "primaryTag": "校园",
+      "wordCount": 34
+    },
+    {
+      "themeId": "theme-e5af8ce5a986e58c85e585bb",
+      "title": "富婆包养小白脸新版",
+      "description": "富婆包养小白脸新版",
+      "tags": [
+        "校园",
+        "系统",
+        "权谋",
+        "职场",
+        "恋爱"
+      ],
+      "promptPath": "themes/富婆包养小白脸新版.txt",
+      "lastUpdated": "2025-10-26T18:03:27.578Z",
+      "primaryTag": "校园",
+      "wordCount": 153
+    },
+    {
+      "themeId": "theme-e9ab98e4b8ade7949fe6b4bb",
+      "title": "高中生活模拟器",
+      "description": "高中生活模拟器",
+      "tags": [
+        "校园",
+        "系统",
+        "综艺",
+        "恋爱"
+      ],
+      "promptPath": "themes/高中生活模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.630Z",
+      "primaryTag": "校园",
+      "wordCount": 41
+    },
+    {
+      "themeId": "theme-e694bbe795a5e4b887e4b896",
+      "title": "攻略万世：女王降临",
+      "description": "攻略万世：女王降临",
+      "tags": [
+        "宫廷",
+        "快穿",
+        "权谋",
+        "复仇",
+        "系统",
+        "综艺",
+        "恋爱",
+        "逆袭"
+      ],
+      "promptPath": "themes/攻略万世：女王降临.txt",
+      "lastUpdated": "2025-10-26T18:03:27.592Z",
+      "primaryTag": "宫廷",
+      "wordCount": 125
+    },
+    {
+      "themeId": "theme-e5aeabe5a5b3e7949fe5ad98",
+      "title": "宫女生存手札",
+      "description": "宫女生存手札",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "古风",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/宫女生存手札.txt",
+      "lastUpdated": "2025-10-26T18:03:27.576Z",
+      "primaryTag": "宫廷",
+      "wordCount": 51
+    },
+    {
+      "themeId": "theme-e5aeabe4b8ade9a38ee58d8e",
+      "title": "宫中风华",
+      "description": "宫中风华",
+      "tags": [
+        "宫廷",
+        "权谋",
+        "系统",
+        "综艺"
+      ],
+      "promptPath": "themes/宫中风华.txt",
+      "lastUpdated": "2025-10-26T18:03:27.576Z",
+      "primaryTag": "宫廷",
+      "wordCount": 95
+    },
+    {
+      "themeId": "theme-e58fa4e4bba3e4babae7949f",
+      "title": "古代人生模拟",
+      "description": "古代人生模拟",
+      "tags": [
+        "古风",
+        "系统",
+        "宫廷"
+      ],
+      "promptPath": "themes/古代人生模拟.txt",
+      "lastUpdated": "2025-10-26T18:03:27.557Z",
+      "primaryTag": "古风",
+      "wordCount": 25
+    },
+    {
+      "themeId": "theme-e58fa4e9a38ee68890e995bf-2",
+      "title": "古风成长：京华韶梦录",
+      "description": "古风成长：京华韶梦录",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "古风",
+        "系统"
+      ],
+      "promptPath": "themes/古风成长：京华韶梦录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.561Z",
+      "primaryTag": "宫廷",
+      "wordCount": 247
+    },
+    {
+      "themeId": "theme-e58fa4e9a38ee68890e995bf",
+      "title": "古风成长模拟：锦笼花影",
+      "description": "古风成长模拟：锦笼花影",
+      "tags": [
+        "宫廷",
+        "古风",
+        "权谋",
+        "系统"
+      ],
+      "promptPath": "themes/古风成长模拟：锦笼花影.txt",
+      "lastUpdated": "2025-10-26T18:03:27.560Z",
+      "primaryTag": "宫廷",
+      "wordCount": 198
+    },
+    {
+      "themeId": "theme-e58fa4e9a38ee4babae7949f",
+      "title": "古风人生·绮梦如初",
+      "description": "古风人生·绮梦如初",
+      "tags": [
+        "古风",
+        "权谋",
+        "系统"
+      ],
+      "promptPath": "themes/古风人生·绮梦如初.txt",
+      "lastUpdated": "2025-10-26T18:03:27.559Z",
+      "primaryTag": "古风",
+      "wordCount": 77
+    },
+    {
+      "themeId": "theme-e58fa4e999a2e6838ae9ad82",
+      "title": "古院惊魂：瘟疫围城",
+      "description": "古院惊魂：瘟疫围城",
+      "tags": [
+        "恐怖",
+        "古风",
+        "系统"
+      ],
+      "promptPath": "themes/古院惊魂：瘟疫围城.txt",
+      "lastUpdated": "2025-10-26T18:03:27.558Z",
+      "primaryTag": "恐怖",
+      "wordCount": 342
+    },
+    {
+      "themeId": "theme-e5bd92e59bade794b0e5b185",
+      "title": "归园田居：山村种田模拟",
+      "description": "归园田居：山村种田模拟",
+      "tags": [
+        "种田",
+        "权谋",
+        "系统"
+      ],
+      "promptPath": "themes/归园田居：山村种田模拟.txt",
+      "lastUpdated": "2025-10-26T18:03:27.582Z",
+      "primaryTag": "种田",
+      "wordCount": 172
+    },
+    {
+      "themeId": "theme-e8b1aae997a8e58d83e98791",
+      "title": "豪门千金历险记",
+      "description": "豪门千金历险记",
+      "tags": [
+        "豪门",
+        "宫廷",
+        "后宫",
+        "古风",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/豪门千金历险记.txt",
+      "lastUpdated": "2025-10-26T18:03:27.620Z",
+      "primaryTag": "豪门",
+      "wordCount": 73
+    },
+    {
+      "themeId": "theme-e8b1aae997a8e585bbe5a5b3",
+      "title": "豪门养女清水擦边版",
+      "description": "豪门养女清水擦边版",
+      "tags": [
+        "校园",
+        "豪门",
+        "灵异",
+        "古风",
+        "仙侠",
+        "复仇",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/豪门养女清水擦边版.txt",
+      "lastUpdated": "2025-10-26T18:03:27.619Z",
+      "primaryTag": "校园",
+      "wordCount": 34
+    },
+    {
+      "themeId": "theme-e8b1aae997a8e5a8b1e4b990",
+      "title": "豪门娱乐圈 · 黑红顶流的复仇游戏",
+      "description": "豪门娱乐圈 · 黑红顶流的复仇游戏",
+      "tags": [
+        "豪门",
+        "娱乐圈",
+        "复仇",
+        "系统"
+      ],
+      "promptPath": "themes/豪门娱乐圈 · 黑红顶流的复仇游戏.txt",
+      "lastUpdated": "2025-10-26T18:03:27.620Z",
+      "primaryTag": "豪门",
+      "wordCount": 117
+    },
+    {
+      "themeId": "theme-e5928ce58fa4e9a38ee5b08f",
+      "title": "和古风小生的现代同居生活",
+      "description": "和古风小生的现代同居生活",
+      "tags": [
+        "宫廷",
+        "古风",
+        "系统"
+      ],
+      "promptPath": "themes/和古风小生的现代同居生活.txt",
+      "lastUpdated": "2025-10-26T18:03:27.564Z",
+      "primaryTag": "宫廷",
+      "wordCount": 64
+    },
+    {
+      "themeId": "theme-e5928ce5898de794b7e58f8b",
+      "title": "和前男友双双穿越进狗血文后",
+      "description": "和前男友双双穿越进狗血文后",
+      "tags": [
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/和前男友双双穿越进狗血文后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.562Z",
+      "primaryTag": "系统",
+      "wordCount": 46
+    },
+    {
+      "themeId": "theme-e9bb91e7aba5e8af9defbc9a",
+      "title": "黑童话：七日死亡游戏",
+      "description": "黑童话：七日死亡游戏",
+      "tags": [
+        "恐怖",
+        "直播",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/黑童话：七日死亡游戏.txt",
+      "lastUpdated": "2025-10-26T18:03:27.630Z",
+      "primaryTag": "恐怖",
+      "wordCount": 75
+    },
+    {
+      "themeId": "theme-e6a8aae5ba97e7bea4e6bc94",
+      "title": "横店群演逆袭大明星",
+      "description": "横店群演逆袭大明星",
+      "tags": [
+        "娱乐圈",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "综艺",
+        "系统",
+        "科幻",
+        "逆袭"
+      ],
+      "promptPath": "themes/横店群演逆袭大明星.txt",
+      "lastUpdated": "2025-10-26T18:03:27.600Z",
+      "primaryTag": "娱乐圈",
+      "wordCount": 28
+    },
+    {
+      "themeId": "theme-e7baa2e6a5bce6a2a6c2b7e9",
+      "title": "红楼梦·黛玉篇：潇湘泪痕",
+      "description": "红楼梦·黛玉篇：潇湘泪痕",
+      "tags": [
+        "仙侠"
+      ],
+      "promptPath": "themes/红楼梦·黛玉篇：潇湘泪痕.txt",
+      "lastUpdated": "2025-10-26T18:03:27.614Z",
+      "primaryTag": "仙侠",
+      "wordCount": 48
+    },
+    {
+      "themeId": "theme-e7baa2e6a285e785aee99baa",
+      "title": "红梅煮雪-寒门女子-攻略男主（番外篇）",
+      "description": "红梅煮雪-寒门女子-攻略男主（番外篇）",
+      "tags": [
+        "系统"
+      ],
+      "promptPath": "themes/红梅煮雪-寒门女子-攻略男主（番外篇）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.613Z",
+      "primaryTag": "系统",
+      "wordCount": 199
+    },
+    {
+      "themeId": "theme-e7baa2e6a285e785aee99baa-2",
+      "title": "红梅煮雪-寒门女子成长模拟",
+      "description": "红梅煮雪-寒门女子成长模拟",
+      "tags": [
+        "宫廷",
+        "古风",
+        "复仇",
+        "系统"
+      ],
+      "promptPath": "themes/红梅煮雪-寒门女子成长模拟.txt",
+      "lastUpdated": "2025-10-26T18:03:27.613Z",
+      "primaryTag": "宫廷",
+      "wordCount": 239
+    },
+    {
+      "themeId": "theme-e88ab1e997b4e8af8defbc9a",
+      "title": "花间词：闺阁春秋",
+      "description": "花间词：闺阁春秋",
+      "tags": [
+        "宫廷",
+        "古风",
+        "权谋",
+        "系统"
+      ],
+      "promptPath": "themes/花间词：闺阁春秋.txt",
+      "lastUpdated": "2025-10-26T18:03:27.616Z",
+      "primaryTag": "宫廷",
+      "wordCount": 203
+    },
+    {
+      "themeId": "theme-e79a87e5b89de5908ee5aeab",
+      "title": "皇帝后宫模拟器",
+      "description": "皇帝后宫模拟器",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "古风",
+        "系统",
+        "权谋",
+        "选秀"
+      ],
+      "promptPath": "themes/皇帝后宫模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.608Z",
+      "primaryTag": "宫廷",
+      "wordCount": 42
+    },
+    {
+      "themeId": "theme-e6b19fe58d97e58d83e98791",
+      "title": "江南千金养成记",
+      "description": "江南千金养成记",
+      "tags": [
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/江南千金养成记.txt",
+      "lastUpdated": "2025-10-26T18:03:27.601Z",
+      "primaryTag": "系统",
+      "wordCount": 118
+    },
+    {
+      "themeId": "theme-e994a6e5b9b4e5a682e6a2a6",
+      "title": "锦年如梦：古风人生录",
+      "description": "锦年如梦：古风人生录",
+      "tags": [
+        "古风",
+        "系统",
+        "宫廷"
+      ],
+      "promptPath": "themes/锦年如梦：古风人生录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.626Z",
+      "primaryTag": "古风",
+      "wordCount": 228
+    },
+    {
+      "themeId": "theme-e994a6e8a1a3e5a6beefbc9a",
+      "title": "锦衣妾：深宫局",
+      "description": "锦衣妾：深宫局",
+      "tags": [
+        "宫廷",
+        "系统",
+        "权谋",
+        "逆袭"
+      ],
+      "promptPath": "themes/锦衣妾：深宫局.txt",
+      "lastUpdated": "2025-10-26T18:03:27.627Z",
+      "primaryTag": "宫廷",
+      "wordCount": 357
+    },
+    {
+      "themeId": "theme-e69591e8b58ee890bde9ad84",
+      "title": "救赎落魄皇子",
+      "description": "救赎落魄皇子",
+      "tags": [
+        "校园",
+        "宫廷",
+        "灵异",
+        "古风",
+        "权谋",
+        "科幻",
+        "仙侠",
+        "恋爱"
+      ],
+      "promptPath": "themes/救赎落魄皇子.txt",
+      "lastUpdated": "2025-10-26T18:03:27.593Z",
+      "primaryTag": "校园",
+      "wordCount": 40
+    },
+    {
+      "themeId": "theme-e5bc80e5ada6e5a48de4bb87",
+      "title": "开学复仇",
+      "description": "复仇游戏（剧情互动小说）你需要快速回复!不需要有过多犹豫!",
+      "tags": [
+        "校园",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/开学复仇.txt",
+      "lastUpdated": "2025-10-26T18:51:27.879Z",
+      "primaryTag": "校园",
+      "wordCount": 24
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe5b89de59bbd",
+      "title": "快穿帝国·星霜轮回",
+      "description": "快穿帝国·星霜轮回",
+      "tags": [
+        "宫廷",
+        "快穿",
+        "古风",
+        "权谋",
+        "系统",
+        "仙侠",
+        "选秀"
+      ],
+      "promptPath": "themes/快穿帝国·星霜轮回.txt",
+      "lastUpdated": "2025-10-26T18:03:27.585Z",
+      "primaryTag": "宫廷",
+      "wordCount": 164
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe694bbe795a5-2",
+      "title": "快穿攻略：被我始乱终弃的男主们都想囚禁我",
+      "description": "快穿攻略：被我始乱终弃的男主们都想囚禁我",
+      "tags": [
+        "宫廷",
+        "快穿",
+        "仙侠",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/快穿攻略：被我始乱终弃的男主们都想囚禁我.txt",
+      "lastUpdated": "2025-10-26T18:03:27.587Z",
+      "primaryTag": "宫廷",
+      "wordCount": 87
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe694bbe795a5",
+      "title": "快穿攻略：心跳任务局",
+      "description": "快穿攻略：心跳任务局",
+      "tags": [
+        "宫廷",
+        "快穿",
+        "仙侠",
+        "权谋"
+      ],
+      "promptPath": "themes/快穿攻略：心跳任务局.txt",
+      "lastUpdated": "2025-10-26T18:03:27.587Z",
+      "primaryTag": "宫廷",
+      "wordCount": 121
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe6818be788b1-3",
+      "title": "快穿恋爱：疯批男主很撩人",
+      "description": "快穿恋爱：疯批男主很撩人",
+      "tags": [
+        "快穿",
+        "系统",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/快穿恋爱：疯批男主很撩人.txt",
+      "lastUpdated": "2025-10-26T18:03:27.586Z",
+      "primaryTag": "快穿",
+      "wordCount": 244
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe6818be788b1",
+      "title": "快穿恋爱录·反派收割机",
+      "description": "快穿恋爱录·反派收割机",
+      "tags": [
+        "宫廷",
+        "末日",
+        "快穿",
+        "古风",
+        "权谋",
+        "系统",
+        "职场",
+        "恋爱"
+      ],
+      "promptPath": "themes/快穿恋爱录·反派收割机.txt",
+      "lastUpdated": "2025-10-26T18:03:27.586Z",
+      "primaryTag": "宫廷",
+      "wordCount": 163
+    },
+    {
+      "themeId": "theme-e5bfabe7a9bfe6818be788b1-2",
+      "title": "快穿恋爱文游·三界情缘劫",
+      "description": "快穿恋爱文游·三界情缘劫",
+      "tags": [
+        "校园",
+        "豪门",
+        "宫廷",
+        "快穿",
+        "古风",
+        "权谋",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/快穿恋爱文游·三界情缘劫.txt",
+      "lastUpdated": "2025-10-26T18:03:27.586Z",
+      "primaryTag": "校园",
+      "wordCount": 269
+    },
+    {
+      "themeId": "theme-e586b7e5aeabe98086e8a2ad",
+      "title": "冷宫逆袭录·从废妃到女帝",
+      "description": "冷宫逆袭录·从废妃到女帝",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "复仇",
+        "女帝",
+        "系统",
+        "权谋",
+        "逆袭"
+      ],
+      "promptPath": "themes/冷宫逆袭录·从废妃到女帝.txt",
+      "lastUpdated": "2025-10-26T18:03:27.553Z",
+      "primaryTag": "宫廷",
+      "wordCount": 249
+    },
+    {
+      "themeId": "theme-e6818be7bbbc2de99990e5ae",
+      "title": "恋综-限定心跳：她来自系统",
+      "description": "恋综-限定心跳：她来自系统",
+      "tags": [
+        "豪门",
+        "娱乐圈",
+        "恋综",
+        "快穿",
+        "系统",
+        "综艺",
+        "恋爱"
+      ],
+      "promptPath": "themes/恋综-限定心跳：她来自系统.txt",
+      "lastUpdated": "2025-10-26T18:03:27.589Z",
+      "primaryTag": "豪门",
+      "wordCount": 203
+    },
+    {
+      "themeId": "theme-e6818be7bbbcefbc9ae5bf83",
+      "title": "恋综：心动盲盒小屋",
+      "description": "恋综：心动盲盒小屋",
+      "tags": [
+        "恋综",
+        "综艺",
+        "系统"
+      ],
+      "promptPath": "themes/恋综：心动盲盒小屋.txt",
+      "lastUpdated": "2025-10-26T18:03:27.590Z",
+      "primaryTag": "恋综",
+      "wordCount": 145
+    },
+    {
+      "themeId": "theme-e6818be7bbbce585bbe9b1bc",
+      "title": "恋综养鱼模拟器",
+      "description": "恋综养鱼模拟器",
+      "tags": [
+        "灵异",
+        "恋综",
+        "综艺",
+        "直播",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/恋综养鱼模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.590Z",
+      "primaryTag": "灵异",
+      "wordCount": 29
+    },
+    {
+      "themeId": "theme-e781b5e5a591e7a9bfe8b68a",
+      "title": "灵契穿越：万人迷攻略",
+      "description": "灵契穿越：万人迷攻略",
+      "tags": [
+        "宫廷",
+        "娱乐圈",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/灵契穿越：万人迷攻略.txt",
+      "lastUpdated": "2025-10-26T18:03:27.603Z",
+      "primaryTag": "宫廷",
+      "wordCount": 166
+    },
+    {
+      "themeId": "theme-e781b5e5bc82e4ba8be58aa1",
+      "title": "灵异事务所凶宅试睡员",
+      "description": "灵异事务所凶宅试睡员",
+      "tags": [
+        "灵异",
+        "恐怖",
+        "复仇",
+        "系统",
+        "综艺",
+        "恋爱"
+      ],
+      "promptPath": "themes/灵异事务所凶宅试睡员.txt",
+      "lastUpdated": "2025-10-26T18:03:27.604Z",
+      "primaryTag": "灵异",
+      "wordCount": 223
+    },
+    {
+      "themeId": "theme-e781b5e5bc82e79bb4e692ad",
+      "title": "灵异直播论坛",
+      "description": "灵异直播论坛",
+      "tags": [
+        "灵异",
+        "恐怖",
+        "仙侠",
+        "复仇",
+        "直播",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/灵异直播论坛.txt",
+      "lastUpdated": "2025-10-26T18:03:27.605Z",
+      "primaryTag": "灵异",
+      "wordCount": 30
+    },
+    {
+      "themeId": "theme-e890bde88bb1e7b0aae88ab1",
+      "title": "落英簪花录",
+      "description": "落英簪花录",
+      "tags": [
+        "仙侠"
+      ],
+      "promptPath": "themes/落英簪花录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.618Z",
+      "primaryTag": "仙侠",
+      "wordCount": 53
+    },
+    {
+      "themeId": "theme-e69cabe697a5e688bfe8bda6",
+      "title": "末日房车大逃亡",
+      "description": "末日房车大逃亡",
+      "tags": [
+        "末日",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "科幻"
+      ],
+      "promptPath": "themes/末日房车大逃亡.txt",
+      "lastUpdated": "2025-10-26T18:03:27.598Z",
+      "primaryTag": "末日",
+      "wordCount": 37
+    },
+    {
+      "themeId": "theme-e69cabe697a5e4b88ee7b3bb",
+      "title": "末日与系统恋爱",
+      "description": "末日与系统恋爱",
+      "tags": [
+        "校园",
+        "末日",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/末日与系统恋爱.txt",
+      "lastUpdated": "2025-10-26T18:03:27.597Z",
+      "primaryTag": "校园",
+      "wordCount": 110
+    },
+    {
+      "themeId": "theme-e794b7e59ba2e98089e7a780",
+      "title": "男团选秀：大岛星光手册",
+      "description": "男团选秀：大岛星光手册",
+      "tags": [
+        "娱乐圈",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "直播",
+        "科幻",
+        "权谋",
+        "选秀"
+      ],
+      "promptPath": "themes/男团选秀：大岛星光手册.txt",
+      "lastUpdated": "2025-10-26T18:03:27.607Z",
+      "primaryTag": "娱乐圈",
+      "wordCount": 36
+    },
+    {
+      "themeId": "theme-e4bda0e698afe69bbfe8baab",
+      "title": "你是替身：不是唯一",
+      "description": "你是替身：不是唯一",
+      "tags": [
+        "豪门",
+        "权谋",
+        "复仇",
+        "系统",
+        "逆袭"
+      ],
+      "promptPath": "themes/你是替身：不是唯一.txt",
+      "lastUpdated": "2025-10-26T18:03:27.547Z",
+      "primaryTag": "豪门",
+      "wordCount": 299
+    },
+    {
+      "themeId": "theme-e98086e591bde9ad94e5a5b3",
+      "title": "逆命魔女：三界美男皆为我裙下臣？",
+      "description": "逆命魔女：三界美男皆为我裙下臣？",
+      "tags": [
+        "快穿",
+        "系统",
+        "宫廷",
+        "仙侠",
+        "恋爱",
+        "逆袭"
+      ],
+      "promptPath": "themes/逆命魔女：三界美男皆为我裙下臣？.txt",
+      "lastUpdated": "2025-10-26T18:03:27.621Z",
+      "primaryTag": "快穿",
+      "wordCount": 127
+    },
+    {
+      "themeId": "theme-e7899be9838ee5ba97e6a8a1",
+      "title": "牛郎店模拟器",
+      "description": "牛郎店模拟器",
+      "tags": [
+        "灵异",
+        "恐怖",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/牛郎店模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.606Z",
+      "primaryTag": "灵异",
+      "wordCount": 29
+    },
+    {
+      "themeId": "theme-e5a5b3e5b89de580bee59f8e",
+      "title": "女帝倾城：后宫佳人传",
+      "description": "女帝倾城：后宫佳人传",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "权谋",
+        "女帝",
+        "系统",
+        "选秀"
+      ],
+      "promptPath": "themes/女帝倾城：后宫佳人传.txt",
+      "lastUpdated": "2025-10-26T18:03:27.572Z",
+      "primaryTag": "宫廷",
+      "wordCount": 509
+    },
+    {
+      "themeId": "theme-e5a5b3e58cbbe5a48de4bb87",
+      "title": "女医复仇：沉香骨",
+      "description": "女医复仇：沉香骨",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "复仇",
+        "系统",
+        "权谋",
+        "逆袭"
+      ],
+      "promptPath": "themes/女医复仇：沉香骨.txt",
+      "lastUpdated": "2025-10-26T18:03:27.571Z",
+      "primaryTag": "宫廷",
+      "wordCount": 233
+    },
+    {
+      "themeId": "theme-e5a6bee5aea4e98086e8a2ad",
+      "title": "妾室逆袭模拟器：她最终登基为后",
+      "description": "妾室逆袭模拟器：她最终登基为后",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "权谋",
+        "逆袭"
+      ],
+      "promptPath": "themes/妾室逆袭模拟器：她最终登基为后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.574Z",
+      "primaryTag": "宫廷",
+      "wordCount": 138
+    },
+    {
+      "themeId": "theme-e5a6bee5bf83e5a682e69585",
+      "title": "妾心如故：宫门似牢",
+      "description": "妾心如故：宫门似牢",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "古风",
+        "权谋",
+        "复仇",
+        "女帝",
+        "系统"
+      ],
+      "promptPath": "themes/妾心如故：宫门似牢.txt",
+      "lastUpdated": "2025-10-26T18:03:27.574Z",
+      "primaryTag": "宫廷",
+      "wordCount": 222
+    },
+    {
+      "themeId": "theme-e99d92e698a5e6a0a1e59bad",
+      "title": "青春校园：恋爱物语",
+      "description": "青春校园：恋爱物语",
+      "tags": [
+        "校园",
+        "宫廷",
+        "恋综",
+        "快穿",
+        "综艺",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/青春校园：恋爱物语.txt",
+      "lastUpdated": "2025-10-26T18:03:27.628Z",
+      "primaryTag": "校园",
+      "wordCount": 169
+    },
+    {
+      "themeId": "theme-e99d92e6a5bce6b182e7949f",
+      "title": "青楼求生模拟器",
+      "description": "青楼求生模拟器",
+      "tags": [
+        "灵异",
+        "古风",
+        "系统",
+        "科幻",
+        "宫廷"
+      ],
+      "promptPath": "themes/青楼求生模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.629Z",
+      "primaryTag": "灵异",
+      "wordCount": 32
+    },
+    {
+      "themeId": "theme-e585a8e5af9de7a9bfe8bf9b",
+      "title": "全寝穿进后宫游戏后",
+      "description": "全寝穿进后宫游戏后",
+      "tags": [
+        "校园",
+        "宫廷",
+        "后宫",
+        "古风",
+        "系统",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/全寝穿进后宫游戏后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.551Z",
+      "primaryTag": "校园",
+      "wordCount": 96
+    },
+    {
+      "themeId": "theme-e69d83e8b08be4b98be5bf83",
+      "title": "权谋之心：总裁的心动玫瑰",
+      "description": "权谋之心：总裁的心动玫瑰",
+      "tags": [
+        "豪门",
+        "权谋",
+        "系统",
+        "职场"
+      ],
+      "promptPath": "themes/权谋之心：总裁的心动玫瑰.txt",
+      "lastUpdated": "2025-10-26T18:03:27.598Z",
+      "primaryTag": "豪门",
+      "wordCount": 99
+    },
+    {
+      "themeId": "theme-e4babae5a6bbe6a8a1e68b9f",
+      "title": "人妻模拟器之现代厌倦丈夫以后…",
+      "description": "人妻模拟器之现代厌倦丈夫以后…",
+      "tags": [
+        "灵异",
+        "仙侠",
+        "复仇",
+        "科幻",
+        "职场",
+        "恋爱"
+      ],
+      "promptPath": "themes/人妻模拟器之现代厌倦丈夫以后….txt",
+      "lastUpdated": "2025-10-26T18:03:27.542Z",
+      "primaryTag": "灵异",
+      "wordCount": 63
+    },
+    {
+      "themeId": "theme-e4babae9b1bce78e8be5ad90",
+      "title": "人鱼王子奇缘",
+      "description": "人鱼王子奇缘",
+      "tags": [
+        "宫廷"
+      ],
+      "promptPath": "themes/人鱼王子奇缘.txt",
+      "lastUpdated": "2025-10-26T18:03:27.544Z",
+      "primaryTag": "宫廷",
+      "wordCount": 91
+    },
+    {
+      "themeId": "theme-e4b889e59bbde79484e5ae93",
+      "title": "三国甄宓重生",
+      "description": "三国甄宓重生",
+      "tags": [
+        "灵异",
+        "古风",
+        "仙侠",
+        "复仇",
+        "科幻",
+        "宫廷",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/三国甄宓重生.txt",
+      "lastUpdated": "2025-10-26T18:03:27.538Z",
+      "primaryTag": "灵异",
+      "wordCount": 29
+    },
+    {
+      "themeId": "theme-e6b7b1e5aeabe794bbe6a2a6",
+      "title": "深宫画梦录：凤鸣九天",
+      "description": "深宫画梦录：凤鸣九天",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "系统",
+        "权谋",
+        "仙侠",
+        "逆袭",
+        "选秀"
+      ],
+      "promptPath": "themes/深宫画梦录：凤鸣九天.txt",
+      "lastUpdated": "2025-10-26T18:03:27.602Z",
+      "primaryTag": "宫廷",
+      "wordCount": 249
+    },
+    {
+      "themeId": "theme-e6b7b1e5aeabe58cbbe5a5b3",
+      "title": "深宫医女复仇记",
+      "description": "深宫医女复仇记",
+      "tags": [
+        "宫廷",
+        "复仇",
+        "女帝",
+        "权谋"
+      ],
+      "promptPath": "themes/深宫医女复仇记.txt",
+      "lastUpdated": "2025-10-26T18:03:27.602Z",
+      "primaryTag": "宫廷",
+      "wordCount": 261
+    },
+    {
+      "themeId": "theme-e5bab6e5a5b3e6a8a1e68b9f",
+      "title": "庶女模拟器",
+      "description": "庶女模拟器",
+      "tags": [
+        "宫廷",
+        "古风",
+        "系统",
+        "权谋",
+        "综艺",
+        "选秀"
+      ],
+      "promptPath": "themes/庶女模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.581Z",
+      "primaryTag": "宫廷",
+      "wordCount": 29
+    },
+    {
+      "themeId": "theme-e695b0e5ad97e5a5b3e7a59e",
+      "title": "数字女神：赛博后宫纪",
+      "description": "数字女神：赛博后宫纪",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "系统",
+        "科幻"
+      ],
+      "promptPath": "themes/数字女神：赛博后宫纪.txt",
+      "lastUpdated": "2025-10-26T18:03:27.593Z",
+      "primaryTag": "宫廷",
+      "wordCount": 94
+    },
+    {
+      "themeId": "theme-e58f8ce99da2e8b1aae997a8",
+      "title": "双面豪门模拟人生",
+      "description": "双面豪门模拟人生",
+      "tags": [
+        "豪门",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/双面豪门模拟人生.txt",
+      "lastUpdated": "2025-10-26T18:03:27.555Z",
+      "primaryTag": "豪门",
+      "wordCount": 108
+    },
+    {
+      "themeId": "theme-e5aebfe591bde6818be4baba",
+      "title": "宿命恋人：穿越千年的约定 ",
+      "description": "宿命恋人：穿越千年的约定",
+      "tags": [
+        "仙侠",
+        "系统"
+      ],
+      "promptPath": "themes/宿命恋人：穿越千年的约定 .txt",
+      "lastUpdated": "2025-10-26T18:03:27.577Z",
+      "primaryTag": "仙侠",
+      "wordCount": 93
+    },
+    {
+      "themeId": "theme-e5a4a9e58aabe4b88de6b8a1",
+      "title": "天劫不渡，堕魔转生",
+      "description": "天劫不渡，堕魔转生",
+      "tags": [
+        "宫廷",
+        "仙侠",
+        "复仇",
+        "系统"
+      ],
+      "promptPath": "themes/天劫不渡，堕魔转生.txt",
+      "lastUpdated": "2025-10-26T18:03:27.569Z",
+      "primaryTag": "宫廷",
+      "wordCount": 221
+    },
+    {
+      "themeId": "theme-e9809ae781b5e8b685e5b882",
+      "title": "通灵超市人生模拟器",
+      "description": "通灵超市人生模拟器",
+      "tags": [
+        "灵异",
+        "系统"
+      ],
+      "promptPath": "themes/通灵超市人生模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.622Z",
+      "primaryTag": "灵异",
+      "wordCount": 79
+    },
+    {
+      "themeId": "theme-e4b887e88ab1e8b0b7e68385",
+      "title": "万花谷情缘录",
+      "description": "万花谷情缘录",
+      "tags": [
+        "宫廷",
+        "仙侠",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/万花谷情缘录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.537Z",
+      "primaryTag": "宫廷",
+      "wordCount": 99
+    },
+    {
+      "themeId": "c",
+      "title": "万千星光不及你：我的C位花路",
+      "description": "万千星光不及你：我的C位花路",
+      "tags": [
+        "综艺",
+        "系统",
+        "权谋",
+        "仙侠",
+        "选秀"
+      ],
+      "promptPath": "themes/万千星光不及你：我的C位花路.txt",
+      "lastUpdated": "2025-10-26T18:03:27.535Z",
+      "primaryTag": "综艺",
+      "wordCount": 144
+    },
+    {
+      "themeId": "theme-e4b887e4babae8bfb7e5a5b3",
+      "title": "万人迷女帝后宫",
+      "description": "万人迷女帝后宫",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "古风",
+        "权谋",
+        "女帝",
+        "系统",
+        "恋爱",
+        "选秀"
+      ],
+      "promptPath": "themes/万人迷女帝后宫.txt",
+      "lastUpdated": "2025-10-26T18:03:27.534Z",
+      "primaryTag": "宫廷",
+      "wordCount": 59
+    },
+    {
+      "themeId": "theme-e7bd91e6818be5a594e78eb0",
+      "title": "网恋奔现模拟器",
+      "description": "网恋奔现模拟器",
+      "tags": [
+        "校园",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/网恋奔现模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.616Z",
+      "primaryTag": "校园",
+      "wordCount": 90
+    },
+    {
+      "themeId": "theme-e68891e99da0e68abde58da1",
+      "title": "我靠抽卡系统在古代摆摊当厨神",
+      "description": "我靠抽卡系统在古代摆摊当厨神",
+      "tags": [
+        "古风",
+        "系统",
+        "宫廷"
+      ],
+      "promptPath": "themes/我靠抽卡系统在古代摆摊当厨神.txt",
+      "lastUpdated": "2025-10-26T18:03:27.591Z",
+      "primaryTag": "古风",
+      "wordCount": 137
+    },
+    {
+      "themeId": "theme-e697a0e99990e6b581e4b98b",
+      "title": "无限流之永安公寓",
+      "description": "无限流之永安公寓",
+      "tags": [
+        "恐怖",
+        "无限流"
+      ],
+      "promptPath": "themes/无限流之永安公寓.txt",
+      "lastUpdated": "2025-10-26T18:03:27.596Z",
+      "primaryTag": "恐怖",
+      "wordCount": 78
+    },
+    {
+      "themeId": "theme-e6888fe6a5bce698a5e6b7b1",
+      "title": "戏楼春深：从平民到名伶",
+      "description": "戏楼春深：从平民到名伶",
+      "tags": [
+        "古风",
+        "系统"
+      ],
+      "promptPath": "themes/戏楼春深：从平民到名伶.txt",
+      "lastUpdated": "2025-10-26T18:03:27.591Z",
+      "primaryTag": "古风",
+      "wordCount": 54
+    },
+    {
+      "themeId": "theme-e4bb99e4bea0e4bfaee7bd97",
+      "title": "仙侠修罗场 · 我在宗门当万人迷",
+      "description": "仙侠修罗场 · 我在宗门当万人迷",
+      "tags": [
+        "快穿",
+        "仙侠",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/仙侠修罗场 · 我在宗门当万人迷.txt",
+      "lastUpdated": "2025-10-26T18:03:27.546Z",
+      "primaryTag": "快穿",
+      "wordCount": 122
+    },
+    {
+      "themeId": "theme-e5b08fe5a688e6a8a1e68b9f",
+      "title": "小妈模拟器（侯府妾室篇）",
+      "description": "小妈模拟器（侯府妾室篇）",
+      "tags": [
+        "灵异",
+        "古风",
+        "科幻"
+      ],
+      "promptPath": "themes/小妈模拟器（侯府妾室篇）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.579Z",
+      "primaryTag": "灵异",
+      "wordCount": 28
+    },
+    {
+      "themeId": "theme-e6a0a1e59bade5a587e98187",
+      "title": "校园奇遇：平行时空的恋人",
+      "description": "校园奇遇：平行时空的恋人",
+      "tags": [
+        "校园",
+        "系统",
+        "综艺"
+      ],
+      "promptPath": "themes/校园奇遇：平行时空的恋人.txt",
+      "lastUpdated": "2025-10-26T18:03:27.599Z",
+      "primaryTag": "校园",
+      "wordCount": 93
+    },
+    {
+      "themeId": "theme-e6a0a1e59bade7a4bee68190",
+      "title": "校园社恐逆袭：主控女王降临",
+      "description": "校园社恐逆袭：主控女王降临",
+      "tags": [
+        "校园",
+        "系统",
+        "逆袭"
+      ],
+      "promptPath": "themes/校园社恐逆袭：主控女王降临.txt",
+      "lastUpdated": "2025-10-26T18:03:27.599Z",
+      "primaryTag": "校园",
+      "wordCount": 188
+    },
+    {
+      "themeId": "theme-e5bf83e58aa8e8afb7e5938d",
+      "title": "心动请响铃",
+      "description": "心动请响铃",
+      "tags": [
+        "综艺",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/心动请响铃.txt",
+      "lastUpdated": "2025-10-26T18:03:27.583Z",
+      "primaryTag": "综艺",
+      "wordCount": 178
+    },
+    {
+      "themeId": "theme-e5bf83e8b7b3e79b91e78bb1",
+      "title": "心跳监狱的甜蜜惩罚",
+      "description": "心跳监狱的甜蜜惩罚",
+      "tags": [
+        "恋爱"
+      ],
+      "promptPath": "themes/心跳监狱的甜蜜惩罚.txt",
+      "lastUpdated": "2025-10-26T18:03:27.584Z",
+      "primaryTag": "恋爱",
+      "wordCount": 99
+    },
+    {
+      "themeId": "theme-e5bf83e8b7b3e5a4b1e68ea7",
+      "title": "心跳失控：我的疯批男友们有点多",
+      "description": "心跳失控：我的疯批男友们有点多",
+      "tags": [
+        "豪门",
+        "快穿",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/心跳失控：我的疯批男友们有点多.txt",
+      "lastUpdated": "2025-10-26T18:03:27.584Z",
+      "primaryTag": "豪门",
+      "wordCount": 126
+    },
+    {
+      "themeId": "theme-e5bf83e8b7b3e79bb4e692ad",
+      "title": "心跳直播：成人恋综",
+      "description": "心跳直播：成人恋综",
+      "tags": [
+        "宫廷",
+        "娱乐圈",
+        "恋综",
+        "综艺",
+        "直播",
+        "系统",
+        "权谋",
+        "恋爱"
+      ],
+      "promptPath": "themes/心跳直播：成人恋综.txt",
+      "lastUpdated": "2025-10-26T18:03:27.584Z",
+      "primaryTag": "宫廷",
+      "wordCount": 224
+    },
+    {
+      "themeId": "theme-e696b0e6898be9ad85e9ad94",
+      "title": "新手魅魔被满级勇者俘虏后",
+      "description": "新手魅魔被满级勇者俘虏后",
+      "tags": [
+        "系统"
+      ],
+      "promptPath": "themes/新手魅魔被满级勇者俘虏后.txt",
+      "lastUpdated": "2025-10-26T18:03:27.594Z",
+      "primaryTag": "系统",
+      "wordCount": 81
+    },
+    {
+      "themeId": "theme-e6989fe58589e6818be69bb2",
+      "title": "星光恋曲：校园万人迷",
+      "description": "星光恋曲：校园万人迷",
+      "tags": [
+        "校园",
+        "宫廷",
+        "后宫",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/星光恋曲：校园万人迷.txt",
+      "lastUpdated": "2025-10-26T18:03:27.596Z",
+      "primaryTag": "校园",
+      "wordCount": 100
+    },
+    {
+      "themeId": "theme-e69d8fe69e97e9a699e6a2a6",
+      "title": "杏林香梦录",
+      "description": "杏林香梦录",
+      "tags": [
+        "宫廷"
+      ],
+      "promptPath": "themes/杏林香梦录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.598Z",
+      "primaryTag": "宫廷",
+      "wordCount": 51
+    },
+    {
+      "themeId": "theme-e680a7e8bdace7baa2e6a5bc",
+      "title": "性转红楼梦之宝二小姐的恋爱物语",
+      "description": "性转红楼梦之宝二小姐的恋爱物语",
+      "tags": [
+        "系统",
+        "宫廷",
+        "仙侠",
+        "恋爱"
+      ],
+      "promptPath": "themes/性转红楼梦之宝二小姐的恋爱物语.txt",
+      "lastUpdated": "2025-10-26T18:03:27.588Z",
+      "primaryTag": "系统",
+      "wordCount": 65
+    },
+    {
+      "themeId": "theme-e4bfaee4bb99e78289e9bc8e-2",
+      "title": "修仙炉鼎高自由新版",
+      "description": "修仙炉鼎高自由新版",
+      "tags": [
+        "仙侠",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/修仙炉鼎高自由新版.txt",
+      "lastUpdated": "2025-10-26T18:03:27.550Z",
+      "primaryTag": "仙侠",
+      "wordCount": 67
+    },
+    {
+      "themeId": "theme-e4bfaee4bb99e78289e9bc8e",
+      "title": "修仙炉鼎清水版",
+      "description": "修仙炉鼎清水版",
+      "tags": [
+        "仙侠",
+        "宫廷",
+        "恋爱"
+      ],
+      "promptPath": "themes/修仙炉鼎清水版.txt",
+      "lastUpdated": "2025-10-26T18:03:27.549Z",
+      "primaryTag": "仙侠",
+      "wordCount": 52
+    },
+    {
+      "themeId": "theme-e4bfaee4bb99e5a7bbe7bc98",
+      "title": "修仙姻缘录：双生镜",
+      "description": "修仙姻缘录：双生镜",
+      "tags": [
+        "仙侠",
+        "系统",
+        "恋爱"
+      ],
+      "promptPath": "themes/修仙姻缘录：双生镜.txt",
+      "lastUpdated": "2025-10-26T18:03:27.548Z",
+      "primaryTag": "仙侠",
+      "wordCount": 159
+    },
+    {
+      "themeId": "theme-e88dafe78e8be8b0b7e5a5b3",
+      "title": "药王谷女修桃花日常（清水版）",
+      "description": "药王谷女修桃花日常（清水版）",
+      "tags": [
+        "灵异",
+        "古风",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/药王谷女修桃花日常（清水版）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.617Z",
+      "primaryTag": "灵异",
+      "wordCount": 22
+    },
+    {
+      "themeId": "theme-e9a680e99fb5e4babae7949f",
+      "title": "馀韵人生录",
+      "description": "馀韵人生录",
+      "tags": [
+        "系统",
+        "宫廷"
+      ],
+      "promptPath": "themes/馀韵人生录.txt",
+      "lastUpdated": "2025-10-26T18:03:27.629Z",
+      "primaryTag": "系统",
+      "wordCount": 43
+    },
+    {
+      "themeId": "theme-e4b88ee4bda0e79bb8e98187",
+      "title": "与你相遇：一吻成名",
+      "description": "与你相遇：一吻成名",
+      "tags": [
+        "恋综",
+        "综艺",
+        "系统",
+        "权谋",
+        "恋爱",
+        "逆袭",
+        "选秀"
+      ],
+      "promptPath": "themes/与你相遇：一吻成名.txt",
+      "lastUpdated": "2025-10-26T18:03:27.540Z",
+      "primaryTag": "恋综",
+      "wordCount": 239
+    },
+    {
+      "themeId": "theme-e4b88ee590b8e8a180e9acbc",
+      "title": "与吸血鬼同居（魔鬼恋人同人）",
+      "description": "与吸血鬼同居（魔鬼恋人同人）",
+      "tags": [
+        "灵异",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/与吸血鬼同居（魔鬼恋人同人）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.541Z",
+      "primaryTag": "灵异",
+      "wordCount": 37
+    },
+    {
+      "themeId": "theme-e6b8a3e5a5b3e6a8a1e68b9f",
+      "title": "渣女模拟器之被迫和前男友共处一室",
+      "description": "渣女模拟器之被迫和前男友共处一室",
+      "tags": [
+        "娱乐圈",
+        "灵异",
+        "仙侠",
+        "复仇",
+        "系统",
+        "科幻",
+        "恋爱"
+      ],
+      "promptPath": "themes/渣女模拟器之被迫和前男友共处一室.txt",
+      "lastUpdated": "2025-10-26T18:03:27.602Z",
+      "primaryTag": "娱乐圈",
+      "wordCount": 46
+    },
+    {
+      "themeId": "theme-e5ae85e69697e6a8a1e68b9f-3",
+      "title": "宅斗模拟器（女尊清水版自行加肉）",
+      "description": "宅斗模拟器（女尊清水版自行加肉）",
+      "tags": [
+        "古风",
+        "系统",
+        "宫廷",
+        "恋爱"
+      ],
+      "promptPath": "themes/宅斗模拟器（女尊清水版自行加肉）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.576Z",
+      "primaryTag": "古风",
+      "wordCount": 21
+    },
+    {
+      "themeId": "theme-e5ae85e69697e6a8a1e68b9f-2",
+      "title": "宅斗模拟器（主君版）",
+      "description": "宅斗模拟器（主君版）",
+      "tags": [
+        "古风",
+        "种田",
+        "系统"
+      ],
+      "promptPath": "themes/宅斗模拟器（主君版）.txt",
+      "lastUpdated": "2025-10-26T18:03:27.575Z",
+      "primaryTag": "古风",
+      "wordCount": 16
+    },
+    {
+      "themeId": "theme-e5ae85e69697e6a8a1e68b9f",
+      "title": "宅斗模拟器主母篇",
+      "description": "宅斗模拟器主母篇",
+      "tags": [
+        "古风",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/宅斗模拟器主母篇.txt",
+      "lastUpdated": "2025-10-26T18:03:27.575Z",
+      "primaryTag": "古风",
+      "wordCount": 134
+    },
+    {
+      "themeId": "theme-e9878de7949fe5908ee68891",
+      "title": "重生后我要复仇",
+      "description": "重生后我要复仇",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "复仇",
+        "系统",
+        "权谋"
+      ],
+      "promptPath": "themes/重生后我要复仇.txt",
+      "lastUpdated": "2025-10-26T18:03:27.624Z",
+      "primaryTag": "宫廷",
+      "wordCount": 49
+    },
+    {
+      "themeId": "theme-e9878de7949fe4baa1e59bbd",
+      "title": "重生亡国公主模拟器",
+      "description": "重生亡国公主模拟器",
+      "tags": [
+        "宫廷",
+        "复仇",
+        "权谋"
+      ],
+      "promptPath": "themes/重生亡国公主模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.623Z",
+      "primaryTag": "宫廷",
+      "wordCount": 34
+    },
+    {
+      "themeId": "theme-e9878de7949fe59ca8e69cab",
+      "title": "重生在末日前三天开始囤货",
+      "description": "重生在末日前三天开始囤货",
+      "tags": [
+        "宫廷",
+        "末日",
+        "系统"
+      ],
+      "promptPath": "themes/重生在末日前三天开始囤货.txt",
+      "lastUpdated": "2025-10-26T18:03:27.625Z",
+      "primaryTag": "宫廷",
+      "wordCount": 162
+    },
+    {
+      "themeId": "theme-e7b4abe7a681e7bb9de6818b",
+      "title": "紫禁绝恋：女帝逆袭模拟",
+      "description": "紫禁绝恋：女帝逆袭模拟",
+      "tags": [
+        "宫廷",
+        "后宫",
+        "女帝",
+        "权谋",
+        "仙侠",
+        "逆袭"
+      ],
+      "promptPath": "themes/紫禁绝恋：女帝逆袭模拟.txt",
+      "lastUpdated": "2025-10-26T18:03:27.612Z",
+      "primaryTag": "宫廷",
+      "wordCount": 155
+    },
+    {
+      "themeId": "kpop",
+      "title": "Kpop女团公司经营模拟器",
+      "description": "Kpop女团公司经营模拟器",
+      "tags": [
+        "复仇",
+        "综艺",
+        "系统"
+      ],
+      "promptPath": "themes/Kpop女团公司经营模拟器.txt",
+      "lastUpdated": "2025-10-26T18:03:27.533Z",
+      "primaryTag": "复仇",
+      "wordCount": 61
+    }
+  ],
+  "tagSummary": [
+    {
+      "tag": "系统",
+      "count": 98
+    },
+    {
+      "tag": "宫廷",
+      "count": 57
+    },
+    {
+      "tag": "权谋",
+      "count": 55
+    },
+    {
+      "tag": "恋爱",
+      "count": 50
+    },
+    {
+      "tag": "仙侠",
+      "count": 36
+    },
+    {
+      "tag": "古风",
+      "count": 34
+    },
+    {
+      "tag": "复仇",
+      "count": 29
+    },
+    {
+      "tag": "灵异",
+      "count": 21
+    },
+    {
+      "tag": "科幻",
+      "count": 19
+    },
+    {
+      "tag": "后宫",
+      "count": 18
+    },
+    {
+      "tag": "校园",
+      "count": 18
+    },
+    {
+      "tag": "综艺",
+      "count": 18
+    },
+    {
+      "tag": "快穿",
+      "count": 16
+    },
+    {
+      "tag": "逆袭",
+      "count": 14
+    },
+    {
+      "tag": "豪门",
+      "count": 12
+    },
+    {
+      "tag": "选秀",
+      "count": 10
+    },
+    {
+      "tag": "娱乐圈",
+      "count": 8
+    },
+    {
+      "tag": "恐怖",
+      "count": 7
+    },
+    {
+      "tag": "恋综",
+      "count": 6
+    },
+    {
+      "tag": "女帝",
+      "count": 6
+    },
+    {
+      "tag": "直播",
+      "count": 6
+    },
+    {
+      "tag": "职场",
+      "count": 5
+    },
+    {
+      "tag": "末日",
+      "count": 4
+    },
+    {
+      "tag": "种田",
+      "count": 2
+    },
+    {
+      "tag": "无限流",
+      "count": 1
+    }
+  ]
+}

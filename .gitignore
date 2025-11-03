@@ -1,0 +1,7 @@
+backend/.env
+
+node_modules
+snapshots/user-store.json
+snapshots/test-user-store.json
+snapshots/behavior-store.json
+snapshots/test-behavior-store.json

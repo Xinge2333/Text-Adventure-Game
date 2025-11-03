@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/story/index",
+    "pages/catalog/index",
+    "pages/favorites/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "文字互动游戏",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f5f7",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8e8e93",
+    "selectedColor": "#0a84ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/story/index",
+        "text": "故事"
+      },
+      {
+        "pagePath": "pages/catalog/index",
+        "text": "主题"
+      },
+      {
+        "pagePath": "pages/favorites/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

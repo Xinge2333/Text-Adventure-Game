@@ -1,0 +1,16 @@
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f5f7;
+  color: #1c1c1e;
+}
+
+.button-primary {
+  background: linear-gradient(90deg, #0a84ff 0%, #007aff 100%);
+  color: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 8rpx 16rpx rgba(10, 132, 255, 0.25);
+}
+
+.list-container {
+  padding: 24rpx;
+}

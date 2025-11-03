@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "椰子文字冒险",
+  "usingComponents": {
+    "loading-sequence": "../../components/loading-sequence/loading-sequence"
+  }
+}

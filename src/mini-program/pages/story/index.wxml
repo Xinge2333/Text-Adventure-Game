@@ -1,0 +1,105 @@
+<view class="story-page {{nightMode ? 'night-mode' : ''}}">
+  <swiper
+    class="panel-swiper"
+    current="{{activeIndex}}"
+    duration="320"
+    easing-function="easeOutCubic"
+    bindchange="onSwiperChange"
+    bindanimationfinish="onSwiperAnimationFinish"
+    vertical
+    disable-touch="true"
+  >
+    <block wx:for="{{themePanels}}" wx:key="themeId" wx:for-item="panel">
+      <swiper-item>
+        <view class="story-panel">
+          <scroll-view
+            class="panel-scroll"
+            scroll-y="true"
+            bindscroll="onPanelScroll"
+            data-themeid="{{panel.themeId}}"
+            scroll-top="{{panel.scrollTop}}"
+          >
+            <view class="panel-inner">
+              <view class="top-controls">
+                <view class="turn-badge" wx:if="{{panel.turnCount}}">第{{panel.turnCount}}回合</view>
+                <view class="top-actions">
+                  <block wx:if="{{panel.isLoading}}">
+                    <view class="loading-placeholder"></view>
+                  </block>
+                  <block wx:else>
+                    <button class="refresh-button" bindtap="onPanelRefresh" data-themeid="{{panel.themeId}}">↻</button>
+                  </block>
+                </view>
+              </view>
+
+              <view class="story-content">
+                <view wx:if="{{panel.title}}" class="story-title">{{panel.title}}</view>
+                <text class="narrative" decode="true">{{panel.narrative}}</text>
+                <view wx:if="{{panel.moderationMessage}}" class="moderation">{{panel.moderationMessage}}</view>
+                <view wx:if="{{panel.lastError}}" class="panel-error">{{panel.lastError}}</view>
+              </view>
+            </view>
+          </scroll-view>
+
+          <view wx:if="{{!panel.ending}}" class="panel-actions panel-actions-options">
+            <block wx:for="{{panel.options.length ? panel.options : [0,1,2,3]}}" wx:key="index" wx:for-index="optIndex">
+              <button
+                class="option-button button-primary"
+                bindtap="onPanelOption"
+                data-themeid="{{panel.themeId}}"
+                data-index="{{optIndex}}"
+                disabled="{{panel.isLoading || !panel.options.length}}"
+              >
+                {{optIndex === 0 ? 'A' : optIndex === 1 ? 'B' : optIndex === 2 ? 'C' : 'D: 其他'}}
+              </button>
+            </block>
+          </view>
+
+          <view wx:if="{{panel.ending}}" class="panel-actions panel-actions-ending">
+            <view class="ending-message">故事已结束</view>
+            <button class="button-primary" bindtap="onPanelRestart" data-themeid="{{panel.themeId}}" disabled="{{panel.isLoading}}">重新开始</button>
+            <button class="secondary" bindtap="onReturnHome" disabled="{{panel.isLoading}}">返回主题</button>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view wx:if="{{activeLoading}}" class="global-loading">
+    <view class="global-loading-inner {{nightMode ? 'night-mode' : ''}}">
+      <loading-sequence
+        active="{{activeLoading}}"
+        mode="{{activePendingAction === 'advance' ? 'interaction' : 'initial'}}"
+        night-mode="{{nightMode}}"
+      />
+    </view>
+  </view>
+
+  <view wx:if="{{themePanels.length}}" class="theme-switcher">
+    <view
+      wx:if="{{activeIndex > 0}}"
+      class="theme-button"
+      bindtap="onSwitchTheme"
+      data-direction="up"
+    >
+      <text class="theme-icon">↑</text>
+    </view>
+
+    <view
+      wx:if="{{themePanels.length && themePanels[activeIndex]}}"
+      class="theme-button favorite-button {{themePanels[activeIndex].isFavorite ? 'favorite-active' : ''}} {{themePanels[activeIndex].isLoading ? 'favorite-disabled' : ''}}"
+      bindtap="onToggleFavoriteActive"
+    >
+      <text class="theme-icon">{{themePanels[activeIndex].isFavorite ? '★' : '☆'}}</text>
+    </view>
+
+    <view
+      wx:if="{{themePanels.length > 1}}"
+      class="theme-button {{activeIndex >= themePanels.length - 1 ? 'theme-button-disabled' : ''}}"
+      bindtap="onSwitchTheme"
+      data-direction="down"
+    >
+      <text class="theme-icon">↓</text>
+    </view>
+  </view>
+</view>

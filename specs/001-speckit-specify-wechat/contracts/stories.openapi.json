@@ -1,0 +1,120 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Interactive Story API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/stories": {
+      "post": {
+        "summary": "Start a new story session",
+        "operationId": "startStory",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["themeId"],
+                "properties": {
+                  "themeId": { "type": "string" },
+                  "clientVersion": { "type": "string", "description": "Mini program version string" },
+                  "modelProvider": {
+                    "type": "string",
+                    "enum": ["deepseek", "qwen"],
+                    "description": "Optional override to choose DeepSeek or Qwen"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Initial story turn",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/StoryTurnResponse" }
+              }
+            }
+          },
+          "400": { "description": "Unsupported theme or invalid payload" }
+        }
+      }
+    },
+    "/stories/{sessionId}/turns": {
+      "post": {
+        "summary": "Submit a player choice and retrieve the next turn",
+        "operationId": "advanceStory",
+        "parameters": [
+          {
+            "name": "sessionId",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string", "format": "uuid" }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["selectedOption"],
+                "properties": {
+                  "selectedOption": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "customOptionText": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "description": "Custom text supplied when selectedOption is 4"
+                  },
+                  "modelProvider": {
+                    "type": "string",
+                    "enum": ["deepseek", "qwen"],
+                    "description": "Optional override matching the session provider"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Next story turn or ending",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/StoryTurnResponse" }
+              }
+            }
+          },
+          "400": { "description": "Invalid option or session expired" }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "StoryTurnResponse": {
+        "type": "object",
+        "required": ["sessionId", "turnIndex", "narrative", "ending"],
+        "properties": {
+          "sessionId": { "type": "string", "format": "uuid" },
+          "turnIndex": { "type": "integer", "minimum": 0 },
+          "narrative": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" },
+            "maxItems": 4,
+            "description": "Present when ending=false"
+          },
+          "ending": { "type": "boolean" },
+          "moderationMessage": { "type": "string", "description": "Present when content blocked" }
+        }
+      }
+    }
+  }
+}

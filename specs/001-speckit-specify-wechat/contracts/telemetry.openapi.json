@@ -1,0 +1,41 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Story Telemetry API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/telemetry/turns": {
+      "post": {
+        "summary": "Submit telemetry for a story turn",
+        "operationId": "submitTurnTelemetry",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["sessionIdHash", "themeId", "turnIndex", "latencyMs", "outcome"],
+                "properties": {
+                  "sessionIdHash": { "type": "string" },
+                  "themeId": { "type": "string" },
+                  "turnIndex": { "type": "integer", "minimum": 0 },
+                  "latencyMs": { "type": "integer", "minimum": 0 },
+                  "outcome": {
+                    "type": "string",
+                    "enum": ["success", "handled_error", "moderated"]
+                  },
+                  "timestamp": { "type": "string", "format": "date-time" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": { "description": "Telemetry accepted for processing" },
+          "400": { "description": "Invalid telemetry payload" }
+        }
+      }
+    }
+  }
+}

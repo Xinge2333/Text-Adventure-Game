@@ -1,0 +1,75 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Theme Catalog API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/themes": {
+      "get": {
+        "summary": "List available story themes",
+        "operationId": "listThemes",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Keyword applied to title, description, and tags",
+            "schema": { "type": "string", "maxLength": 50 }
+          },
+          {
+            "name": "tag",
+            "in": "query",
+            "description": "Filter to a single tag",
+            "schema": { "type": "string", "maxLength": 20 }
+          },
+          {
+            "name": "favorites",
+            "in": "query",
+            "description": "Comma-separated list of themeIds marked as favorite (used to annotate response)",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Catalog themes",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["catalogVersion", "themes"],
+                  "properties": {
+                    "catalogVersion": { "type": "string" },
+                    "themes": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Theme" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Theme": {
+        "type": "object",
+        "required": ["themeId", "title", "description", "tags", "lastUpdated"],
+        "properties": {
+          "themeId": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string", "maxLength": 120 },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "maxItems": 5
+          },
+          "lastUpdated": { "type": "string", "format": "date-time" },
+          "isFavorite": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

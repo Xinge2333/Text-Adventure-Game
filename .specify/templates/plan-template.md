@@ -30,8 +30,11 @@
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
-
-[Gates determined based on constitution file]
+- `Independent Value Increments`: Confirm user stories deliver standalone value, list dependencies, and note demo plans.
+- `Spec-Plan-Tasks Chain`: Verify the artifact pipeline (research → plan → spec → tasks) is scoped and open questions are tagged as `NEEDS CLARIFICATION`.
+- `Test-First Verification`: Identify the tests that will be authored first, how they will fail initially, and where they live.
+- `Explicit Contracts`: Document the contracts to create under `specs/.../contracts/` and describe the compatibility approach for consumers.
+- `Operational Transparency`: Capture the logging and metrics checkpoints that will prove acceptance criteria in runtime environments.
 
 ## Project Structure
 

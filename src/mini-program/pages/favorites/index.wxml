@@ -1,0 +1,145 @@
+<view class="my-container {{nightMode ? 'night-mode' : ''}}">
+  <view
+    class="section-card profile-card {{isLoggedIn ? 'profile-card-logged' : 'profile-card-anon'}}"
+    bindtap="openProfileModal"
+  >
+    <image
+      wx:if="{{userAvatar}}"
+      class="profile-avatar profile-avatar-image"
+      src="{{userAvatar}}"
+      mode="aspectFill"
+    />
+    <view wx:else class="profile-avatar">{{userInitial}}</view>
+    <view class="profile-text">
+      <view class="profile-name-row">
+        <view class="profile-name">{{userDisplayName}}</view>
+        <view wx:if="{{isLoggedIn}}" class="profile-badge">已登录</view>
+      </view>
+      <view class="profile-subtitle">{{userSubtitle}}</view>
+      <view wx:if="{{isLoggedIn}}" class="profile-stats">
+        <view class="profile-stat">
+          <view class="profile-stat-value">{{favorites.length}}</view>
+          <view class="profile-stat-label">收藏</view>
+        </view>
+        <view class="profile-stat">
+          <view class="profile-stat-value">{{selectedModel === 'qwen' ? '2号' : '1号'}}</view>
+          <view class="profile-stat-label">AI 模型</view>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{isLoggedIn}}" class="profile-inline-actions">
+      <button class="profile-inline-btn" catchtap="openFavoritesModal">管理</button>
+      <button class="profile-inline-btn outline" catchtap="onLogout">退出</button>
+    </view>
+    <view class="card-arrow">›</view>
+  </view>
+
+  <view class="section-card favorites-card" bindtap="openFavoritesModal">
+    <view class="card-header">
+      <view class="card-title">我的收藏</view>
+      <view class="card-subtitle">{{favorites.length}} 个主题</view>
+    </view>
+    <view class="card-preview">
+      <block wx:if="{{favoritesPreview.length}}">
+        <block wx:for="{{favoritesPreview}}" wx:key="themeId">
+          <view class="preview-item">{{item.title}}</view>
+        </block>
+        <view wx:if="{{favorites.length > favoritesPreview.length}}" class="preview-more">还有 {{favorites.length - favoritesPreview.length}} 个收藏</view>
+      </block>
+      <block wx:else>
+        <view class="preview-empty">暂无收藏，点击管理</view>
+      </block>
+    </view>
+    <view class="card-arrow">›</view>
+  </view>
+
+  <view class="section-card settings-card" bindtap="openSettingsModal">
+    <view class="card-header">
+      <view class="card-title">设置</view>
+      <view class="card-subtitle">夜间模式 · 切换 AI 模型</view>
+    </view>
+    <view class="card-arrow">›</view>
+  </view>
+</view>
+
+<view wx:if="{{showProfileModal}}" class="modal-mask" bindtap="closeModals">
+  <view class="modal-content {{nightMode ? 'night-mode' : ''}}" catchtap="noop">
+    <view class="modal-title">个人资料</view>
+    <view class="modal-body">
+      <view class="profile-row">
+        <view class="profile-avatar large">🙂</view>
+        <view class="profile-details">
+          <view class="profile-name">{{userDisplayName}}</view>
+          <view class="profile-subtitle">{{userSubtitle}}</view>
+        </view>
+      </view>
+      <view class="profile-tip" wx:if="{{isLoggedIn}}">敬请期待更多个人信息功能。</view>
+      <view class="profile-tip" wx:else>登录后可同步收藏、设置与游玩记录。</view>
+      <view class="profile-actions" wx:if="{{!isLoggedIn}}">
+        <button
+          class="login-button"
+          bindtap="onRequestLogin"
+          loading="{{isLoggingIn}}"
+          disabled="{{isLoggingIn}}"
+        >
+          立即登录
+        </button>
+      </view>
+    </view>
+    <button class="modal-close" bindtap="closeModals">关闭</button>
+  </view>
+</view>
+
+<view wx:if="{{showFavoritesModal}}" class="modal-mask" bindtap="closeModals">
+  <view class="modal-content wide {{nightMode ? 'night-mode' : ''}}" catchtap="noop">
+    <view class="modal-title">我的收藏</view>
+    <scroll-view class="favorites-list" scroll-y="true">
+      <block wx:if="{{favorites.length}}">
+        <block wx:for="{{favorites}}" wx:key="themeId">
+          <view class="modal-favorite-item" bindtap="onSelectFavorite" data-id="{{item.themeId}}">
+            <view class="favorite-text-group">
+              <view class="favorite-title">{{item.title}}</view>
+              <view class="favorite-description">{{item.description}}</view>
+            </view>
+            <view class="favorite-star">★</view>
+          </view>
+        </block>
+      </block>
+      <block wx:else>
+        <view class="preview-empty">暂无收藏，返回主题页探索吧</view>
+      </block>
+    </scroll-view>
+    <button class="modal-close" bindtap="closeModals">关闭</button>
+  </view>
+</view>
+
+<view wx:if="{{showSettingsModal}}" class="modal-mask" bindtap="closeModals">
+  <view class="modal-content {{nightMode ? 'night-mode' : ''}}" catchtap="noop">
+    <view class="modal-title">设置</view>
+    <view class="modal-body">
+      <view class="settings-item">
+        <view class="settings-text">
+          <view class="settings-title">夜间模式</view>
+          <view class="settings-subtitle">开启后使用深色界面</view>
+        </view>
+        <switch checked="{{nightMode}}" bindchange="onNightModeChange" />
+      </view>
+
+      <view class="settings-item column">
+        <view class="settings-text">
+          <view class="settings-title">切换 AI 模型</view>
+          <view class="settings-subtitle">当前：{{selectedModel === 'qwen' ? '2号' : '1号'}}</view>
+        </view>
+        <radio-group class="model-options" bindchange="onModelChange">
+          <label class="model-option" wx:for="{{modelOptions}}" wx:key="id">
+            <radio value="{{item.id}}" checked="{{item.id === selectedModel}}" />
+            <text>{{item.label}}</text>
+          </label>
+        </radio-group>
+      </view>
+
+      <button class="logout-button" bindtap="onLogout">退出登录</button>
+    </view>
+    <button class="modal-close" bindtap="closeModals">完成</button>
+  </view>
+</view>
