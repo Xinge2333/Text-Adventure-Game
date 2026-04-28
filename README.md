@@ -1,10 +1,6 @@
 ```markdown
 # WeChat AI Agent 剧情生成平台
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/node.js-18.x-brightgreen)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-5.x-blue)](https://www.typescriptlang.org/)
-
 > 基于多Agent架构的微信小程序互动小说平台，融合RAG增强生成与个性化推荐，提供沉浸式AI剧情体验。
 
 ## 📋 目录
@@ -568,61 +564,4 @@ npm test --workspace src/mini-program
 
 # 代码检查
 npm run lint --workspace backend
-```
-
-## 许可证
-
-本项目采用 [MIT 许可证](LICENSE)。
-
-```
-MIT License
-
-Copyright (c) 2026 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## 未来规划
-
-### 短期计划 (2026 Q2-Q3)
-- [ ] **多模态支持**：集成图像生成，为剧情提供视觉化体验
-- [ ] **语音交互**：支持语音输入/输出，提升移动体验
-- [ ] **社交分享**：用户可以分享自己的剧情分支和结局
-- [ ] **创作者工具**：提供Prompt编辑器，让创作者自定义剧情模板
-
-### 中期计划 (2026 Q4-2027 Q1)
-- [ ] **跨平台支持**：扩展到H5、App等多端
-- [ ] **高级Agent协作**：引入辩论Agent、审核Agent等专业角色
-- [ ] **联邦学习**：在保护隐私的前提下优化推荐算法
-- [ ] **AIGC创作**：支持用户与AI共同创作完整小说
-
-### 长期愿景 (2027+)
-- [ ] **元宇宙集成**：将剧情体验融入3D虚拟世界
-- [ ] **情感计算**：通过多模态分析理解用户情感状态
-- [ ] **自适应难度**：根据用户水平动态调整剧情复杂度
-- [ ] **开放平台**：构建创作者生态，支持第三方Agent接入
-
----
-
-**项目维护者**：Your Name  
-**联系方式**：your.email@example.com  
-**最后更新**：2026-04-28
-
-> 本项目基于火山引擎技术生态构建，充分体现了AI Agent在内容创作领域的创新应用。通过多Agent协作架构，我们实现了技术与业务的深度融合，为用户提供真正个性化的互动体验。
 ```
